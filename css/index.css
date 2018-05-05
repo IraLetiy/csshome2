@@ -37,7 +37,7 @@ a{
 }
 
 .headerimg{
-    background-image: url("/images/purplechair.jpg");
+    background-image: url("images/purplechair.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     width:100%;
