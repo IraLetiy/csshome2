@@ -20,7 +20,7 @@ li{
 }
 
 .logo{
-    max-width: 80px; 
+    max-width: 100px; 
     float:left;
    
 }
@@ -57,21 +57,22 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 img{
     width:500px;
 }
 
-#skills {
+#newyork {
     text-align: center;
     grid-column-start:1;
     grid-column-end:3;
 }
-#links{
+#bangkok{
     text-align: center;
     grid-column-start:1;
     grid-column-end:3;
 }
-#work{
+#london{
     text-align: center;
     grid-column-start:1;
     grid-column-end:3;
