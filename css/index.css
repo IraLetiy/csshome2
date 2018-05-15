@@ -108,7 +108,7 @@ footer{
     background-image:cover;
 }
 
-@media only screen and (max-device-width: 530px) {
+@media only screen and (max-device-width: 530px)
     
 .wrapper {
     width: 100%px;
@@ -146,6 +146,103 @@ ul{
 a{
     text-decoration: none;
 }
+
+.header-text{
+    text-align: center;
+    padding-top:130%;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    width:100%;
+}
+
+#newyork {
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+#bangkok{
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+#london{
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.contactme{
+    max-width: 40%;
+    text-align: center;
+}
+
+.social{
+    text-align: center;
+    width:20%;
+}
+
+.carousel-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+.social{
+    text-align: center;
+    width:10%;
+}
+iframe{
+    width:80%;
+}
+
+@media only screen and (max-device-width: 350px) 
+
+.wrapper {
+    width: 100%px;
+}
+
+.container {
+    height: 90%;
+    position: relative;
+    
+}
+body {
+    max-width:100%;
+    margin:0 auto;
+}
+
+.navbar{
+    float:left;
+    width: auto;
+ }
+ 
+.logo{
+    max-width: 20%; 
+    float:left;
+   
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding:20px 40px;
+}
+
 
 .header-text{
     text-align: center;
