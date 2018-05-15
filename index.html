@@ -1,89 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>My 1st web</title>
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="icon" type="image/jpg" href="images/oceanwavesicon.jpg" alt="Ocean Waves Icon">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <p class="logo"> My personal Blog</p>
-                <ul>
-                    <li>
-                        <a href="#edinburgh">Edinburgh</a>
-                    </li>
-                    <li>
-                        <a href="#london">London</a>
-                    </li>
-                    <li>
-                        <a href="#newyork">New York</a>
-                    </li>
-                    <li>
-                        <a href="#bangkok">Bangkok</a>
-                    </li>
-                    <li>
-                        <a href="#contactme">Contact me</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="container">
-                <img id="background" src="images/sunrayonthesee.jpg" alt="Sun rays on the see">
-                <div class="centered">I would like to share some information about my favourite cities.</div>
-            </div>
-        </header>
-        <main>
-            <div class="wrapper">
-                <div id="edinburgh"><img src="images/edinburghhill.jpg"alt="Edinburgh Hill"></div>
-                <div><p>Lorem ipsum do
-               nulla, id malesuada urna.Nullam tincidunt justo magna, idipiscing elit. Nunc eg
-               nulla, id malesuada urna.Nullam tincidunt justo magna, id semper nequricies. </p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My 1st web</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/jpg" href="images/oceanwavesicon.jpg" alt="Ocean Waves Icon">
+    <script src="js/send-form.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <header id="top">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">My personal blog</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#edinburgh">Edinburgh <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#london">London</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#newyork">New York</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bangkok">Bangkok</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactme">Contact me</a>
+                            </li>
+                        </ul>
+                        <div>
+                        </div>
+                </nav>
+                <div class="page">
+                <div class="container" style="background-image:url(images/blacksand.jpg) background-size:cover">
+                    <div class="centered">I would like to share some information about my favourite cities.</div>
                 </div>
-                <div id="london"><h2>London</h2></div>
-                <div><p>Nullam eu iaculis
-                nulla, id malesuada urna.orem ipsum dolor sit amet, consectis
-                nulla, id malesuada urna.orem ipsum dolor sit s
-                nulla, id malesuada urna.orem ipsum dolor sit amet, co
-                nulla, id malesuada urna.</p>
-                    <button>GET More info here</button>
-                </div>
-                <div><img src="images/londoncity.jpg" alt="London city"></div>
-                    <div id="newyork"><h2>New York</h2></div>
+            </header>
+            <main>
+                <div class="wrapper">
+                    <div id="edinburgh"><img src="images/edinburghhill.jpg" alt="Edinburgh Hill"></div>
+                    <div>
+                        <p>Edinburgh is one of Europe’s most beautiful cities, draped across a series of rocky hills overlooking the sea. It’s a town intimately entwined with its landscape, with buildings and monuments perched atop crags and overshadowed
+                            by cliffs. From the Old Town’s picturesque jumble of medieval tenements piled high along the Royal Mile, its turreted skyline strung between the black, bull-nosed Castle Rock and the russet palisade of Salisbury Crags, to the
+                            New Town’s neat grid of neoclassical respectability, the city offers a constantly changing perspective. </p>
+                    </div>
+                    <div id="london">
+                        <h2>London</h2>
+                    </div>
+                    <div>
+                        <p>Immersed in history, London's rich seams of eye-opening antiquity are everywhere. The city's buildings are striking milestones in a unique and beguiling biography, and a great many of them – the Tower of London, Westminster Abbey,
+                            Big Ben – are instantly recognisable landmarks. There’s more than enough innovation (the Shard, the Tate Modern extension, the planned Garden Bridge) to put a crackle in the air, but it never drowns out London’s seasoned, centuries-old
+                            narrative. Architectural grandeur rises up all around you in the West End, ancient remains dot the City and charming pubs punctuate the historic quarters, leafy suburbs and river banks. Take your pick.</p>
+                        <button onclick="myFunction()">Get more information here</button>
+                        <script>
+                            function myFunction() {alert("Here will be additional topic about city");}
+                        </script>
+
+                    </div>
+                    <div><img src="images/londoncity.jpg" alt="London city"></div>
+                    <div id="newyork">
+                        <h2>New York</h2>
+                    </div>
                     <div><img src="images/newyorktaxi.jpg" alt="New York taxi"></div>
-                    <div><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy t nulla eros.Nullam eu iaculis
-                nulla, id malesuada urna.orem ipsum dolor sit au iaculis
-                nulla, id malesuadm eu iaculis
-                nulla, id malesuada urna.ou iaculis
-                nulla, id malesuada .Ne</p></div>
-                <div id="bangkok"><h2>Bangkok</h2></div> 
-                    <div> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy t nulla eros.Nullam eu iaculisnulla, id malesuada urna.orem ipsum dolor sit au iaculis
-                    nulla, id malesuadm eu iaculis nulla, id malesuada urna.ou iaculis
-                    nulla, id malesuada .Nullam eu iaculis nulla, id ma iaculinulla, id malesuada urna.</p>
-                   </div>
-                   <div><img src="images/bangkokwatertrip.jpg" alt="Bangkok water tree"></div>
-            </div>
-                <!-- here should be quotes in karusel -->
-        </main>
-        <section><h2>Fill in the form</h2>
-              <div class="container"><img id="contactme" src="images/pinktree.jpg" alt="Pink tree">
-               <div class="centered">
-                   <form action="https://formspree.io/ira2901@gmail.com" method="POST">
-                    <input type="text" placeholder="Name" required>
-                    <br>
-                    <input type="email" placeholder="E-mail" required>
-                    <br>
-                    <textarea placeholder="Write your Message" required></textarea>
-                    <br>
-                    <input type="submit" value="Get in touch">
-                    </form>
+                    <div>
+                        <p>Upstate New York – anywhere outside NYC – is a dream destination for those who cherish the great outdoors as much as a bar crawl around the Lower East Side. The grand Hudson River heads straight north from NYC, like an escape route.
+                            From Albany, the 524-mile Erie Canal cuts due west to Lake Erie, by spectacular Niagara Falls and Buffalo, a fascinating, rust-belt city that's on the rebound.
+                            <br> The St Lawrence River forms the border with Canada in the beautiful Thousand Islands area. Sample fine wines in the Finger Lakes region, hike in the magnificent Adirondack and Catskills mountains, or simply kick back on
+                            the sandy beaches of Long Island.</p>
+                    </div>
+                    <div id="bangkok">
+                        <h2>Bangkok</h2>
+                    </div>
+                    <div>
+                        <p>Same same, but different. This Thailish T-shirt philosophy sums up Bangkok, a city where the familiar and the exotic collide like the flavours on a plate of pàt tai.
+                            <br> Until you’ve eaten on a Bangkok street, noodles mingling with your sweat amid a cloud of exhaust fumes, you haven’t actually eaten Thai food. It can be an intense mix: the base flavours – spicy, sour, sweet and salty –
+                            aren’t exactly meat and potatoes. But for adventurous foodies who don't need white tablecloths, there’s probably no better dining destination in the world. And with immigration bringing every regional Thai and international
+                            cuisine to the capital, it's also a truly diverse experience. And perhaps best of all, Bangkok has got to be one of the best-value dining destinations in the world.</p>
+                    </div>
+                    <div><img src="images/bangkokwatertrip.jpg" alt="Bangkok water tree"></div>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-content">
+                                <h1>Travel makes one modest. You see what a tiny place you occupy in this world.<br>Gustav Flaubert</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <h1>Once a year, go someplace you’ve never been before.<br>Dalai Lama</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <h1>The best education I have ever received was through travel.<br>Lisa Ling</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </main>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XTpqoiryYsw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <section>
+                <h2>Fill in the form</h2>
+                <div class="container"><img id="contactme" src="images/pinktree.jpg" alt="Pink tree">
+                    <div class="centered">
+                        <form class="sample-form">
+                            <label>Your Name:
+                           <input type="text" name="name">
+                       </label>
+                            <label>Your email:
+                           <input type="text" name="email"
+                       </label>
+                            <label>Yourtext:
+                           <input type="text" name="text"
+                       </label><br>
+                            <input type="submit">
+                        </form>
                     </div>
                 </div>
-        </section>
+        </div>
+            </section>
             <!--get favicon with hand pressing the button-->
             <footer>
                 <h2>Contact me</h2>
@@ -101,5 +162,9 @@
                 <br>
                 <span>Сreated on 2018</span>
             </footer>
-    </body>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
 </html>
